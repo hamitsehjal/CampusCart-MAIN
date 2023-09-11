@@ -10,13 +10,13 @@ Our project is organized into separate repositories for the frontend and backend
 
 Our frontend codebase is hosted in a dedicated repository. It includes the user interface (UI) components, client-side logic, and assets required for the frontend of our application.
 
-- **Repository**: [Link to Frontend Repository](https://github.com/your-organization/frontend-repo)
+- **Repository**: [FrontEnd - Client](https://github.com/hamitsehjal/CampusCart-FRONTEND)
 
 ### Backend Repository
 
 The backend code and server-side logic are stored in a separate repository. This includes APIs, database interactions, and other server-related functionality.
 
-- **Repository**: [Link to Backend Repository](https://github.com/your-organization/backend-repo)
+- **Repository**: [BackEnd - Server](https://github.com/hamitsehjal/CampusCart-BACKEND)
 
 ### Architecture
 
