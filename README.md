@@ -52,7 +52,7 @@ To contribute to this project, follow these steps to create new branches and mak
 
 1. Clone the repository to your local machine:
    ```bash
-     git clone <repository-url>
+     git clone https://github.com/hamitsehjal/CampusCart-MAIN.git
    ```
 2. Create a new branch for your feature or bug fix:
    ```bash
