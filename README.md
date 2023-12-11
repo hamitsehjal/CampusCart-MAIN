@@ -2,21 +2,48 @@
 
 This is the `main` repository for the CampusCart project. Here, we manage project-wide documentation, track milestones, and discuss issues related to the project.
 
+## This is our Project's Architecture
+
+<img width="878" alt="Screenshot 2023-12-11 at 9 45 21 AM" src="https://github.com/hamitsehjal/CampusCart/assets/73131093/37628485-4fb8-4d50-b6fb-794f286869e2">
+
+
 ## Code Organization and Structure
 
 Our project is organized into separate repositories for the frontend and backend components, allowing us to maintain clear separation and efficient development for each part of the application.
 
-### Frontend Repository
-
-Our frontend codebase is hosted in a dedicated repository. It includes the user interface (UI) components, client-side logic, and assets required for the frontend of our application.
-
-- **Repository**: [FrontEnd - Client](https://github.com/hamitsehjal/CampusCart-FRONTEND)
-
-### Backend Repository
 
 The backend code and server-side logic are stored in a separate repository. This includes APIs, database interactions, and other server-related functionality.
 
 - **Repository**: [BackEnd - Server](https://github.com/hamitsehjal/CampusCart-BACKEND)
+- Run the Following Command to set up the Server (SERVER)
+ ```
+ git clone https://github.com/hamitsehjal/CampusCart-BACKEND
+```
+```
+ npm install
+```
+```
+ npm run dev
+```
+
+
+### Frontend Repository - CLIENT
+
+Our frontend codebase is hosted in a dedicated repository. It includes the user interface (UI) components, client-side logic, and assets required for the frontend of our application.
+
+- **Repository**: [FrontEnd - Client](https://github.com/hamitsehjal/CampusCart-FRONTEND)
+- Run the Following Command to set up the Frontend (CLIENT)
+ ```
+ git clone https://github.com/hamitsehjal/CampusCart-FRONTEND
+```
+```
+ npm install
+```
+```
+ npm run dev
+```
+
+### Backend Repository
 
 ### Architecture
 
@@ -30,7 +57,8 @@ Our client-server architecture ensures scalability, maintainability, and separat
 
 For more detailed information on the structure of each component, please refer to the respective repository READMEs in the provided links above.
 
-### Branching Strategy
+### Want to Contribute???
+#### Branching Strategy
 
 We follow a simplified branching strategy to keep our development organized:
 
@@ -38,7 +66,7 @@ We follow a simplified branching strategy to keep our development organized:
 - For each new feature or bug fix, team members create separate `feature` branches.
 - Once a feature is complete and tested, it is `merged` into the main branch.
 
-### CI/CD Pipelines
+#### CI/CD Pipelines
 
 To ensure the quality and reliability of our code, we will set up Continuous Integration (CI) and Continuous Delivery (CD) pipelines:
 
@@ -46,7 +74,7 @@ To ensure the quality and reliability of our code, we will set up Continuous Int
 
 - **CD Pipeline**: The CD pipeline is triggered exclusively when a `Git tag` is pushed to the main repository. This signifies a release event, and the CD pipeline automates the deployment process to a production environment, ensuring that our code is delivered reliably and consistently.
 
-### How to implement Branching Strategy
+#### How to implement Branching Strategy
 
 To contribute to this project, follow these steps to create new branches and make pull requests:
 
@@ -80,7 +108,7 @@ To contribute to this project, follow these steps to create new branches and mak
 5. Your PR will be reviewed by team members, and any necessary discussions or changes will be made before merging.
 
 
-## LICENSE
+##3 LICENSE
 This project is not open-source and does not include an open-source license.
 You can use this README.md template as a starting point for your main repository's documentation. 
 
