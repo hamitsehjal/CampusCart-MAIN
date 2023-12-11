@@ -2,6 +2,8 @@
 
 This is the `main` repository for the CampusCart project. Here, we manage project-wide documentation, track milestones, and discuss issues related to the project.
 
+Visit our E-commerce Site: https://campus-cart.vercel.app
+
 ## This is our Project's Architecture
 
 <img width="878" alt="Screenshot 2023-12-11 at 9 45 21 AM" src="https://github.com/hamitsehjal/CampusCart/assets/73131093/37628485-4fb8-4d50-b6fb-794f286869e2">
